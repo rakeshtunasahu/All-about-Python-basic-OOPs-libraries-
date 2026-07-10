@@ -8,7 +8,7 @@ print(type(a))
 
 ##creating 2D and 3D arrays:-
 
-b=np.array([[4,5,3],[4,7,1]])
+b=np.array([[4,5,3],[4,7,1]],[[5,2],[1,9]])
 print(b)
 print(type(b))
 
