@@ -45,4 +45,13 @@ print(h)
 i=np.random.random((3,4))
 print(i)
 
-##
+##linspace:- it cerates a linear space between the numbers
+
+j=np.linspace(1,16,9)
+print(j)
+
+## identity:- it creates and identity matix
+
+k=np.identity(4)
+print(k)
+
