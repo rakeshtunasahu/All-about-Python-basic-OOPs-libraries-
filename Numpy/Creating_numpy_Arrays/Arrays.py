@@ -34,7 +34,7 @@ print(f)
 
 ## ones and zeros:- it intialize the matrix to 1 or 0
 
-g=np.ones((3,5))
+g=np.ones((3,5)) 
 print(g)
 
 h=np.zeros((2,4))
