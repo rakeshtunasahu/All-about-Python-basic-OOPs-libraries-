@@ -21,7 +21,7 @@ print(result)
 # melt
 result = pd.melt(
     df,
-    id_vars=["Name"],
+    id_vars=["Name"]
     var_name="Subject",
     value_name="Marks"
 )
