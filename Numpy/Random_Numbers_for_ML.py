@@ -1,3 +1,5 @@
+import numpy as np
+import pandas as pd
 np.random.seed(42)
 
 print(np.random.randint(0, 10, 5))

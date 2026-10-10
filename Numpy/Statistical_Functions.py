@@ -1,3 +1,7 @@
+
+import numpy as np
+import pandas as pd
+
 salary = df["Salary"].to_numpy()
 age = df["Age"].to_numpy()
 

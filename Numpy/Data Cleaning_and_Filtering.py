@@ -1,3 +1,5 @@
+import numpy as np
+import pandas as pd
 arr = np.array([10, 20, np.nan, 40, 50])
 
 print(np.isnan(arr))
