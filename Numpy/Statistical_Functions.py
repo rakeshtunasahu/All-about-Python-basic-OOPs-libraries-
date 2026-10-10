@@ -1,0 +1,11 @@
+salary = df["Salary"].to_numpy()
+age = df["Age"].to_numpy()
+
+print(np.mean(salary))
+print(np.median(salary))
+print(np.std(salary))
+print(np.var(salary))
+print(np.min(salary))
+print(np.max(salary))
+print(np.percentile(salary, 75))
+print(np.corrcoef(age, salary))
